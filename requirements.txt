@@ -1,5 +1,11 @@
-fastapi
-uvicorn
-openai-whisper
-ffmpeg-python
-python-multipart
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+openai-whisper==20231117
+python-multipart==0.0.6
+torch==2.1.0
+torchaudio==2.1.0
+numpy==1.24.3
+ffmpeg-python==0.2.0
+
+# Optional: For better performance, uncomment if you have GPU support
+# faster-whisper==0.10.0
